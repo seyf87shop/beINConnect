@@ -2,13 +2,13 @@
 <service>
 <engineName>WordPress</engineName>
 <engineLink>https://wordpress.org/</engineLink>
-<homePageLink>https://web.mubarat.net</homePageLink>
+<homePageLink>https://freelive54.blogspot.com/</homePageLink>
 <apis>
 <api name="WordPress" blogID="1" preferred="true" apiLink="https://web.mubarat.net/xmlrpc.php"/>
 <api name="Movable Type" blogID="1" preferred="false" apiLink="https://web.mubarat.net/xmlrpc.php"/>
 <api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://web.mubarat.net/xmlrpc.php"/>
 <api name="Blogger" blogID="1" preferred="false" apiLink="https://web.mubarat.net/xmlrpc.php"/>
-<api name="WP-API" blogID="1" preferred="false" apiLink="https://web.mubarat.net/wp-json/"/>
+<api name="WP-API" blogID="1" preferred="false" apiLink="https://raw.githack.com/seyf87shop/beINConnect/main/wp-json.json/"/>
 </apis>
 </service>
 </rsd>
