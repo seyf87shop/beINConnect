@@ -1,19 +1,19 @@
 {
-  "short_name": "elwarshadz",
-  "name": "elwarshadz",
+  "short_name": "bien-connect",
+  "name": "bien-connect",
   "icons": [
     {
-      "src": "123.png",
+      "src": "https://images.beinsports.com/eips5xOCPB38dLAOMgx4W6_phEk=/1790306-Connect.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "123.png",
+      "src": "https://images.beinsports.com/eips5xOCPB38dLAOMgx4W6_phEk=/1790306-Connect.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://elwarshadz.blogspot.com/?source=webapp",
+  "start_url": "https://freelive54.blogspot.com/?source=webapp",
   "background_color": "#f9f9f9",
   "display": "standalone",
   "scope": "/",
