@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="S" android:versionCode="1" android:versionName="1" package="org.chromium.webapk.ab601d3262bb5aad6_v2" platformBuildVersionCode="30" platformBuildVersionName="S">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
+	<application android:allowBackup="false" android:icon="@mipmap/ic_launcher" android:label="@string/short_name" android:supportsRtl="true">
+		<activity android:excludeFromRecents="true" android:name="org.chromium.webapk.shell_apk.h2o.H2OTransparentLauncherActivity" android:relinquishTaskIdentity="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:host="bein-app.blogspot.com" android:pathPrefix="" android:scheme="https" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:host="bein-app.blogspot.com" android:pathPrefix="" android:scheme="https" />
+			</intent-filter>
+		</activity>
+		<activity android:name="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity" android:relinquishTaskIdentity="true" android:theme="@style/SplashTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+		</activity>
+		<activity android:launchMode="singleTask" android:name="org.chromium.webapk.shell_apk.h2o.SplashActivity" android:theme="@style/SplashTheme" />
+		<provider android:authorities="org.chromium.webapk.ab601d3262bb5aad6_v2.SplashContentProvider" android:exported="true" android:name="org.chromium.webapk.shell_apk.h2o.SplashContentProvider" />
+		<activity android:enabled="false" android:excludeFromRecents="true" android:name="org.chromium.webapk.shell_apk.h2o.H2OMainActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+		</activity>
+		<meta-data android:name="org.chromium.webapk.shell_apk.shellApkVersion" android:value="122" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.runtimeHost" android:value="com.android.chrome" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.runtimeHostApplicationName" android:value="Chrome" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.startUrl" android:value="https://bein-app.blogspot.com/?source=webapp" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.scope" android:value="https://bein-app.blogspot.com/" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.displayMode" android:value="standalone" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.orientation" android:value="" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.themeColor" android:value="-394759L" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.backgroundColor" android:value="-394759L" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.defaultBackgroundColorId" android:resource="@color/webapp_default_bg" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.iconId" android:resource="@mipmap/app_icon" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.splashId" android:resource="@drawable/splash_icon" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.isSplashIconMaskableBooleanId" android:resource="@bool/is_splash_icon_maskable" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.distributor" android:value="browser" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.iconUrlsAndIconMurmur2Hashes" android:value="https://lh3.googleusercontent.com/fife/ABSRlIp8EKVvEELPOoElFhCPUJhfkje3PWS8dXsl6unf_LLDhcsJwUFoMo3V8qtV07aBMAISDzn6aW1lwWlUyY0Hokza7UbBF_YIyKL8aRQpCTjRg8cZeYgWu3nj39NaEuZFqVgLZSYdwxEpv6-HJfsEhXel6Hs0b6VFl4qlfSytxShWd6VAEIvTPV_dGc1u4k-wSg9xoFP2E5XMKh53-QC6d5TJ9hD3nRqt96JwBIVvyJos2PgHmcU3rkwW-YujQIam6jsDR5aw9OMpHDVkXs0qHYk23sXcILqzocKVXu0uDTSJ5mkITNP_MQzxWPU2B9LZ4IRgyCtSDSbn99gA8Q-V6VgLi9R306RWeqhAqctEBs2Q6_tCMLvM7cN7PuCuCRaB2_SQHMnP_pk-EVl3pXxCw6B7LaWITabzJdBVpRIJtjdUKft9TfZpqTOpJKMGleQkk1PFHVEJt2BhpNXxKdHZt5zNn2Zg3_bEduAL_xa8BQOFkwoERVzR5pFJvNiyM8B-QFvhEWburMKVr7UOUTkO9xHG7utaJzrSnjMqQxyu4b6jR2idrbPUTtECfSYN8d6exrPav3mmBO4fRMHLVoUA-OjpSzvgredyo9Daq-rBwjOyezFe7sCv-SoToHkSmNy-YEKLsakhFKB5A8s3HukqFOZ5lyCwaZKkiHDlRPvDYl0Y9O_aNpIBnbvenaygrCYZVEDMRnofE2uWH818UIsII6jHcaqDQNISBiY=w1920-h947-ft 11790090816274383820 https://lh3.googleusercontent.com/fife/ABSRlIpVIQIB_U2vZq5D84gsbfrT88T7atNTrJr0mX3699fznqggQsx2S6VuTMZ2jbCAHxGXOV6gC3ylD3aVZD0YRGbWpfFFDnlKoskqPk6azhmmyz6Je8rgHNLpIwPLW8DZMJnGQ3LwM8ZDHsaZReTmibz1ncEc_y6tUZkCjaDR0c1N-n_pu1QRWNSSs2y2Nn9afKZHrLOTWVaKxvGUhK-hExPBF2DhDhElySB23W_UeWJtMDjSKmpLHMM-hK0I0Y4R-DV4EdBgLSZJlKLmGKpYhxkUDFP4S3F6T8BV9ADtbJ-PEYT9QcVil2aE6HTKU4lgT9cZeLWgmVGXOn_kiLqWX4kvdG614ASFTSIuySXP3dmlexreWRj2QNDQiU5mPoILVasU58P8m73Z95QX7w6_BkNOP_kpngWOw-MXai-l6FmmcowaHS8YA5k1d-w09UFUpZ2o89cqWr9SeG4PFtvCRHwJDDAvup6QjbAVg5u7eNnpUKe_oztAEr9p9cQVwWiFoMgHZ7N9z19UrstbSD8ZbgwCDrIAyNikAq0NPtnuMEMzXFMQBRC0ba2AZxZqfOdAOgf3FmgKb3wJM_d4HDWAoO55qwMv2DNz7E0ddemtcZaB75I31kxPIia4DwC5FyOKFYHXS6Th2dp-RX4vYRUesdW7wvmJ1NcxTMNEbjoKpb6tJmfLhyGeT-pIdCIxuBdECgpkX27fOz8lUQKnfiSMiQM6YoX2XKOkAr0=w1920-h947-ft 9798353708745447460" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.webManifestUrl" android:value="https://raw.githack.com/seyf87shop/beINConnect/main/manifest.json" />
+		<service android:exported="true" android:name="org.chromium.webapk.shell_apk.WebApkServiceFactory">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.WEBAPK_API" />
+			</intent-filter>
+		</service>
+		<service android:exported="true" android:name="org.chromium.webapk.shell_apk.IdentityService">
+			<intent-filter>
+				<action android:name="org.webapk.IDENTITY_SERVICE_API" />
+			</intent-filter>
+		</service>
+	</application>
+</manifest>
