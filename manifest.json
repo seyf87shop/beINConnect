@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=webapp",
+  "start_url": "https://bein-connect-211be.web.app/?source=webapp",
   "background_color": "#f9f9f9",
   "display": "standalone",
   "scope": "/",
