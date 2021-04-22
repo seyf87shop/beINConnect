@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://bein-app.blogspot.com/?source=webapp",
+  "start_url": "/?source=webapp",
   "background_color": "#f9f9f9",
   "display": "standalone",
   "scope": "/",
